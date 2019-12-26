@@ -1,0 +1,9 @@
+
+<demo-block title="添加联系人" padding>
+  <button bind:tap="handleAddContact">添加</button>
+</demo-block>
+
+
+<demo-block title="这个接口有 bug" padding>
+  [wx.addPhoneContact 点“取消”无法返回](https://developers.weixin.qq.com/community/develop/doc/000e661b7f4b600281a9c06b951400?fromCreate=0)
+</demo-block>

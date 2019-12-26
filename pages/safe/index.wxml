@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      获取头像昵称
+    </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="usermotto">
+    <view class="user-motto">1、水印 (注意：各机型原生组件覆盖情况)</view>
+    <view class="user-motto">2、截屏上报记录 {{capture}}次</view>
+    <view class="user-motto">
+      3、断网隐藏页面
+      <text style="color: {{isConnected === true && 'green'}};">{{isConnected ? '连接' : '断开连接'}}</text>
+    </view>
+  </view>
+
+  <van-divider contentPosition="center" textColor="#1989fa">视频（v2.4.0 起支持同层渲染）</van-divider>
+  <video
+    id="myVideo"
+    src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+    danmu-list="{{danmuList}}"
+    enable-danmu
+    danmu-btn
+    controls
+  ></video>
+
+  <van-divider contentPosition="center" textColor="#1989fa">地图（v2.7.0 起支持同层渲染）</van-divider>
+  <map
+    id="map"
+    longitude="113.324520"
+    latitude="23.099994"
+    scale="14"
+    controls="{{controls}}"
+    bindcontroltap="controltap"
+    markers="{{markers}}"
+    bindmarkertap="markertap"
+    polyline="{{polyline}}"
+    bindregionchange="regionchange"
+    show-location
+    style="width: 100%; height: 300px;"
+  ></map>
+
+  <van-divider contentPosition="center" textColor="#1989fa">画布（2d 接口 v2.9.0 起支持同层渲染）</van-divider>
+  <canvas style="width: 300px; height: 200px;" canvas-id="firstCanvas"></canvas>
+</view>
+
+<watermark bind:safe="onSafe" bind:network="onNetwork" bind:capture="onCapture" />

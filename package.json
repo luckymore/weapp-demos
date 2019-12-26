@@ -1,0 +1,25 @@
+{
+  "name": "weapp-demos",
+  "version": "1.0.0",
+  "description": "好用的、自己写的功能展示",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.0.1",
+    "lodash": "^4.17.15",
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckymore/weapp-demos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckymore/weapp-demos/issues"
+  },
+  "homepage": "https://github.com/luckymore/weapp-demos#readme"
+}

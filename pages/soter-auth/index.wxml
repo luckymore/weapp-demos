@@ -1,0 +1,13 @@
+<demo-block title="支持的认证方式" padding>
+  <van-tag wx:for="{{supportMode}}" wx:key="" type="success">{{item}}</van-tag>  
+</demo-block>
+
+<demo-block title="开始认证" padding>
+  <view class="container">
+    <view class="page-body">
+      <view class="btn-area">
+        <button type="primary" bindtap="startAuth">开始认证</button>
+      </view>
+    </view>
+  </view>
+</demo-block>
