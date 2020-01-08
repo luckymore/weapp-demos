@@ -4,3 +4,9 @@
 
 ### 引入`lodash`，采用的改写`root`
 [微信小程序中使用lodash](https://cnodejs.org/topic/5846b2883ebad99b336b1e06)
+
+
+
+### threejs 示例
+比官方的好用
+[定制的 three.js](https://github.com/yannliao/threejs-example-for-miniprogram) 
