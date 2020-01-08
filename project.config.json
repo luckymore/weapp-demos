@@ -3,6 +3,11 @@
 	"packOptions": {
 		"ignore": []
 	},
+	"babelSetting": {
+		"ignore": [
+			"miniprogram_npm/**"
+		]
+	},
 	"setting": {
 		"urlCheck": false,
 		"es6": true,
@@ -12,7 +17,7 @@
 		"newFeature": true,
 		"coverView": true,
 		"nodeModules": true,
-		"autoAudits": false,
+		"autoAudits": true,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -21,7 +26,7 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"bundle": false
+		"bundle": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",

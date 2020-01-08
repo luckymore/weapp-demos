@@ -32,12 +32,48 @@ export default [
     ]
   },
   {
-    groupName: '反馈组件',
+    groupName: '3D 渲染',
     icon: 'passed',
     list: [
       {
-        path: '/action-sheet',
-        title: 'ActionSheet 上拉菜单'
+        path: '/threejs/animation',
+        title: 'animate'
+      },
+      {
+        path: '/threejs/cube',
+        title: 'cube'
+      },
+      {
+        path: '/threejs/glb',
+        title: 'glb'
+      },
+      {
+        path: '/threejs/gltf',
+        title: 'gltf'
+      },
+      {
+        path: '/threejs/index',
+        title: 'index'
+      },
+      {
+        path: '/threejs/ngltf',
+        title: 'ngltf'
+      },
+      {
+        path: '/threejs/obj',
+        title: 'obj'
+      },
+      {
+        path: '/threejs/primitives',
+        title: 'primitives'
+      },
+      {
+        path: '/threejs/raycaster',
+        title: 'raycaster'
+      },
+      {
+        path: '/threejs/trackcontrol',
+        title: 'trackcontrol'
       },
     ]
   },

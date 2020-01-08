@@ -6,8 +6,18 @@
 
     "pages/bluetooth/index",
     "pages/wifi/index",
-    "pages/add-contact/index"
+    "pages/add-contact/index",
 
+    "pages/threejs/animation/index",
+    "pages/threejs/cube/index",
+    "pages/threejs/glb/index",
+    "pages/threejs/gltf/index",
+    "pages/threejs/index/index",
+    "pages/threejs/ngltf/index",
+    "pages/threejs/obj/index",
+    "pages/threejs/primitives/index",
+    "pages/threejs/raycaster/index",
+    "pages/threejs/trackcontrol/index"
   ],
   "usingComponents": {
     "demo-block": "/components/demo-block/index",

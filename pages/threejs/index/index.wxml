@@ -1,0 +1,30 @@
+<view class="list-container">
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="primitives">
+        基本
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="cube">
+        OrbitControl 立方
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="trackcontrol">
+        TrackballControls
+    </button>
+    
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="gltf">
+        gLTF
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="ngltf">
+        New gLTF
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="glb">
+        glb
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="obj">
+        OBJ
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="animation">
+        animation
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="raycaster">
+        raycaster
+    </button>
+</view>
