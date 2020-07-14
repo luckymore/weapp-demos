@@ -1,0 +1,5 @@
+<image animation="{{animation}}" mode="aspectFit" src='https://techeek-cn-1251732175.cos.ap-chengdu.myqcloud.com/wx-compass/img.png'></image>
+<view style='display:flex;justify-content:center;align-items:center;font-size:50px;'>{{angle}} {{compass}}°</view>
+<view>精度：{{accuracy}}</view>
+<button type="primary" bind:tap="startCompass">打开罗盘</button>
+<button type="warn" bind:tap="stopCompass">关闭罗盘</button>

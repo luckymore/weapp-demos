@@ -22,6 +22,10 @@ export default [
         title: 'wifi'
       },
       {
+        path: '/compass',
+        title: 'compass 罗盘'
+      },
+      {
         path: '/add-contact',
         title: 'addPhoneContact 添加手机联系人'
       },

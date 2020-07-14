@@ -95,4 +95,10 @@ Page({
       },
     })
   },
+
+  handleCopy() {
+    wx.setClipboardData({
+      data: this.data.connectedWifi.BSSID
+    })
+  }
 })

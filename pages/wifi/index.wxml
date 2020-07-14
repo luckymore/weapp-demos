@@ -1,4 +1,4 @@
-<demo-block title="当前 wifi 更新次数{{updateTime}}" padding>
+<demo-block title="当前 wifi 更新次数{{updateTime}}" padding bind:tap="handleCopy">
   <van-tag plain>{{connectedWifi.SSID}}</van-tag>
   <van-tag plain>{{connectedWifi.BSSID}}</van-tag>
   <van-tag plain>{{connectedWifi.secure}}</van-tag>

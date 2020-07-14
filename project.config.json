@@ -17,7 +17,8 @@
 		"newFeature": true,
 		"coverView": true,
 		"nodeModules": true,
-		"autoAudits": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -26,12 +27,11 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"bundle": true,
-		"showShadowRootInWxmlPanel": true
+		"bundle": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",
-	"appid": "wxc877ab3e47e77180",
+	"appid": "wxbb06037ec73a6759",
 	"projectname": "weapp-demos",
 	"debugOptions": {
 		"hidedInDevtools": []
